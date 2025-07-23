@@ -87,8 +87,6 @@ server.on('listening', () => {
   console.log(chalk.magenta('📦 Version: ') + chalk.bold(version));
   console.log(chalk.magenta('🔗 URL: ') + chalk.underline('http://localhost:' + server.address().port));
   console.log(chalk.cyan('-----------------------------------------------'));
-  console.log(chalk.blue('💬 Discord: ') + chalk.underline(discord));
-  console.log(chalk.cyan('-----------------------------------------------'));
 });
 
 function shutdown(signal) {
